@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="rabbit">
+  <style>
+    .hop { animation: hop 2.2s ease-in-out infinite; transform-origin: 120px 145px; }
+    .ear-l { animation: earL 2.8s ease-in-out infinite; transform-origin: 94px 92px; }
+    .ear-r { animation: earR 2.8s ease-in-out infinite; transform-origin: 146px 92px; }
+    @keyframes hop { 0%,100%{ transform: translateY(0);} 50%{ transform: translateY(-10px);} }
+    @keyframes earL { 0%,100%{ transform: rotate(-3deg);} 50%{ transform: rotate(5deg);} }
+    @keyframes earR { 0%,100%{ transform: rotate(3deg);} 50%{ transform: rotate(-5deg);} }
+  </style>
+  <g class="hop">
+    <g class="ear-l"><ellipse cx="88" cy="62" rx="22" ry="58" fill="#fff5f8"/><ellipse cx="88" cy="64" rx="11" ry="42" fill="#ffc0d8"/></g>
+    <g class="ear-r"><ellipse cx="152" cy="62" rx="22" ry="58" fill="#fff5f8"/><ellipse cx="152" cy="64" rx="11" ry="42" fill="#ffc0d8"/></g>
+    <circle cx="120" cy="132" r="72" fill="#fff5f8"/>
+    <circle cx="94" cy="124" r="8" fill="#49323a"/>
+    <circle cx="146" cy="124" r="8" fill="#49323a"/>
+    <circle cx="120" cy="139" r="7" fill="#ff8bb8"/>
+    <path d="M108 154 Q120 164 132 154" fill="none" stroke="#49323a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="73" cy="142" r="11" fill="#ffd1df"/>
+    <circle cx="167" cy="142" r="11" fill="#ffd1df"/>
+  </g>
+</svg>

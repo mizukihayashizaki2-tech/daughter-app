@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="bird">
+  <style>
+    .fly { animation: fly 2.5s ease-in-out infinite; transform-origin: 120px 120px; }
+    .wing-l { animation: flapL 1.4s ease-in-out infinite; transform-origin: 90px 125px; }
+    .wing-r { animation: flapR 1.4s ease-in-out infinite; transform-origin: 150px 125px; }
+    @keyframes fly { 0%,100%{ transform: translateY(0) rotate(2deg);} 50%{ transform: translateY(-9px) rotate(-2deg);} }
+    @keyframes flapL { 0%,100%{ transform: rotate(0deg);} 50%{ transform: rotate(-13deg);} }
+    @keyframes flapR { 0%,100%{ transform: rotate(0deg);} 50%{ transform: rotate(13deg);} }
+  </style>
+  <g class="fly">
+    <ellipse class="wing-l" cx="76" cy="130" rx="36" ry="24" fill="#79c7ff"/>
+    <ellipse class="wing-r" cx="164" cy="130" rx="36" ry="24" fill="#79c7ff"/>
+    <circle cx="120" cy="122" r="64" fill="#6fc4ff"/>
+    <circle cx="98" cy="112" r="8" fill="#26364a"/>
+    <circle cx="142" cy="112" r="8" fill="#26364a"/>
+    <path d="M111 128 L129 128 L120 143 Z" fill="#ffb347"/>
+    <circle cx="75" cy="129" r="10" fill="#ffd5e3" opacity=".85"/>
+    <circle cx="165" cy="129" r="10" fill="#ffd5e3" opacity=".85"/>
+    <path d="M98 181 Q120 204 142 181" fill="#4aa6e8"/>
+  </g>
+</svg>

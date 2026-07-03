@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/destinationpage.tsx","./src/components/mainpage.tsx","./src/components/settingspage.tsx","./src/components/stationcard.tsx","./src/domain/station.ts","./src/domain/weights.ts","./src/services/settingsrepository.ts","./src/utils/lottery.ts"],"version":"5.9.3"}

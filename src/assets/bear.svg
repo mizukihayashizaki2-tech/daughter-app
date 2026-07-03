@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="bear">
+  <style>
+    .float { animation: floaty 2.4s ease-in-out infinite; transform-origin: 120px 120px; }
+    .blink { animation: blink 3s infinite; transform-origin: center; }
+    @keyframes floaty { 0%,100%{ transform: translateY(0) rotate(-2deg);} 50%{ transform: translateY(-8px) rotate(2deg);} }
+    @keyframes blink { 0%,92%,100%{ transform: scaleY(1);} 95%{ transform: scaleY(.1);} }
+  </style>
+  <g class="float">
+    <circle cx="70" cy="74" r="34" fill="#a56b43"/>
+    <circle cx="170" cy="74" r="34" fill="#a56b43"/>
+    <circle cx="120" cy="120" r="78" fill="#c98a59"/>
+    <circle cx="92" cy="113" r="9" class="blink" fill="#4b2d20"/>
+    <circle cx="148" cy="113" r="9" class="blink" fill="#4b2d20"/>
+    <ellipse cx="120" cy="143" rx="34" ry="25" fill="#ffe3bf"/>
+    <circle cx="120" cy="132" r="9" fill="#4b2d20"/>
+    <path d="M107 148 Q120 158 133 148" fill="none" stroke="#4b2d20" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="64" cy="126" r="12" fill="#ffb3a7" opacity=".75"/>
+    <circle cx="176" cy="126" r="12" fill="#ffb3a7" opacity=".75"/>
+  </g>
+</svg>
